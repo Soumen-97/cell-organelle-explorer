@@ -1,4 +1,4 @@
-const CACHE_NAME = "organelle-explorer-v1";
+const CACHE_NAME = "organelle-explorer-v2";
 
 const urlsToCache = [
   "./",
