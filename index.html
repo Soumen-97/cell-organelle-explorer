@@ -356,7 +356,7 @@ function drawQuizPanel(ctx, W, H) {
     ctx.beginPath(); ctx.moveTo(panelX+14,panelY+23); ctx.lineTo(panelX+panelW-14,panelY+23); ctx.stroke();
 
     // Clue text
-    ctx.fillStyle='rgba(255,255,255,0.9)'; ctx.font=`500 12px 'Segoe UI',sans-serif`;
+    ctx.fillStyle='rgba(255,255,255,0.9)'; ctx.font=`800 12px 'Segoe UI',sans-serif`;
     wrapText(ctx,`💬 "${org.fact}"`,W/2,panelY+38,clueW,16);
 
     // Short hand hint — concise enough for narrow mobile screens
